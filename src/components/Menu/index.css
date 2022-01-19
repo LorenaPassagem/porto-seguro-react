@@ -1,0 +1,49 @@
+
+.icon-menu{
+    cursor: pointer;
+}
+
+@media screen and (min-width:770px) and (max-width:1440px){
+    .icon-menu{
+        display: none;
+        
+    }
+
+    .list-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .list-menu-item {
+        list-style: none;
+        text-decoration: none;
+        margin: 2%;
+    }
+
+    .list-menu-item a{
+        text-decoration:none;        
+        color:#D6A430;
+        text-transform: uppercase;
+
+    }
+}
+
+@media screen and (min-width:312px) and (max-width:770px) {
+    .list-menu{
+        display: none;
+    }
+}
+
+@media screen and (width:770px){
+    .icon-menu{
+        display: block;
+    }
+}
+
+.open-menu{
+    display: block;
+}
+
+.hide-menu{
+    display: none;
+}
