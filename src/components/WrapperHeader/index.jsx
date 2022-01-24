@@ -2,18 +2,17 @@ import React from 'react'
 import LogoNorteSul from '../Logo-Norte-Sul'
 import LogoPorto from '../LogoPorto'
 import Menu from '../Menu'
-import MenuLateral from '../MenuLateral'
+import MenuLateral from '../MenuLateral/MenuLateral'
 
 import './index.css'
 
 function WrapperHeader(){
-  return ( 
-   <nav className='nav'>
+ return ( 
+  <nav className='nav'>
     <LogoNorteSul />
     <LogoPorto />
     <Menu />
-    <MenuLateral />
-   </nav>
+  </nav>
  )
 }
 export default WrapperHeader
