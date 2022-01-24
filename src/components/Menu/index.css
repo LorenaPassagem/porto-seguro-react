@@ -3,47 +3,53 @@
     cursor: pointer;
 }
 
-@media screen and (min-width:770px) and (max-width:1440px){
+@media screen and (min-width:778px) and (max-width:1440px){
     .icon-menu{
-        display: none;
-        
+        display:none;        
     }
-
-    .list-menu {
-        display: flex;
-        align-items: center;
-    }
-
-    .list-menu-item {
-        list-style: none;
-        text-decoration: none;
-        margin: 2%;
+    
+    .list-menu-item{
+        display: inline;
+        margin:5px;
+        float: right;
     }
 
     .list-menu-item a{
         text-decoration:none;        
-        color:#D6A430;
+        color:#000;
         text-transform: uppercase;
-
     }
 }
 
-@media screen and (min-width:312px) and (max-width:770px) {
+@media screen and (min-width:312px) and (max-width:777px) {
     .list-menu{
         display: none;
+        list-style: none;     
+        margin: 15px;
     }
-}
 
-@media screen and (width:770px){
-    .icon-menu{
-        display: block;
+    .list-menu-item{
+        padding: 5%;
+        background-color: tomato;
+        border-bottom: 2px solid black;
     }
-}
 
-.open-menu{
-    display: block;
-}
+    .list-menu-item a{
+        list-style: none;
+        text-decoration: none;
+    }
 
-.hide-menu{
-    display: none;
+
+
+    .open-menu{
+        display: inline;
+        position: absolute;
+        top:15%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hide-menu{
+        display: none;
+    }
 }
