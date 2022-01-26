@@ -1,0 +1,7 @@
+.logoMarlin{
+    background-image: url(../../img/marlin-logo.png);
+    background-position:65%;
+    background-repeat:no-repeat;    
+    height: 20px;
+    text-align: center;
+}
