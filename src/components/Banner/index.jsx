@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "../Button";
+import Preco from "../Preco";
 import './index.css'
 
 function Banner(){
@@ -7,6 +9,8 @@ function Banner(){
             Conforto e qualidade para levar 
             bem-estar com alto padrão de atendimento a seus funcionários.
         </h2>
+        <Preco /><Button texto='ver mais' className='banner'/>
+        
     </section>
 }
 export default Banner

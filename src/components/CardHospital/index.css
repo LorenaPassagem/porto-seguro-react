@@ -1,0 +1,21 @@
+.cardhospital{
+    margin: 5%;
+    border-radius:5px;    
+    height: 90%;
+    padding: 0vw;
+    border: solid 1px #00000029;
+    box-shadow: 0 3px 6px #00000029;
+ }
+
+ @media screen and(min-width:340px) and (max-width:474px) {
+   .cardhospital{
+        width: 340px;
+   }    
+
+ }
+
+ @media screen and (min-width: 474px) and (max-width:1440px){
+     .cardhospital {
+         width: 90%;
+     }
+ }

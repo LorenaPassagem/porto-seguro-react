@@ -1,0 +1,22 @@
+.preco{
+    
+    font-family: 'Open Sans', sans-serif;
+    color:#FFF;
+    font-size: 15px;
+    
+}
+
+.dolar{
+    font-size: 22px;
+}
+
+.precoSpan{
+    font-size:40px;
+    font-weight: bold;    
+}
+
+.info{
+    font-size: 7px;
+    text-align: justify;
+    width: 200px;
+}
