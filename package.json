@@ -1,7 +1,7 @@
 {
   "name": "porto-seguro-react",
   "version": "0.0.0",
-  "homepage": "https://github.com/LorenaPassagem/porto-seguro-react",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
